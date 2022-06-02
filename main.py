@@ -3,7 +3,7 @@ import telebot
 
 is_writed = {}
 
-bot = telebot.TeleBot('5373930444:AAFRizpv1iKV7_DVSxqbSeGV1PwfhSeaCXE')
+bot = telebot.TeleBot('API')
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
